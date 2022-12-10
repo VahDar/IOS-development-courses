@@ -1,0 +1,7 @@
+target 'HomeWork 6 @IMeanHi' do
+  
+  use_frameworks!
+
+  pod 'lottie-ios'
+
+end

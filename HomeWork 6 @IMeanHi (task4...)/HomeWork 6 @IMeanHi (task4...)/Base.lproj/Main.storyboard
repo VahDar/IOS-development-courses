@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HomeWork_6__IMeanHi__task4____" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PH3-l0-bwd">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="200"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coin.png" translatesAutoresizingMaskIntoConstraints="NO" id="3HC-nv-igZ">
+                                        <rect key="frame" x="8" y="67" width="30" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="G4F-Yp-ami"/>
+                                            <constraint firstAttribute="width" constant="30" id="bLS-Cf-Fjb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Jn-TP-uD7">
+                                        <rect key="frame" x="355" y="67" width="30" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="37" id="1YA-hj-Vof"/>
+                                            <constraint firstAttribute="width" constant="30" id="HvN-l3-TjM"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="wj4-RJ-sOj"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="37" id="xlo-eb-j6v"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Доступный лимит" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4m-kN-CPM">
+                                        <rect key="frame" x="103" y="76" width="186" height="25.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ukraine.png" translatesAutoresizingMaskIntoConstraints="NO" id="hTU-Ly-fkd">
+                                        <rect key="frame" x="163" y="117" width="67" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="MTR-PV-uwh"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.22901099920000001" green="0.4879380465" blue="0.3803792298" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hTU-Ly-fkd" secondAttribute="trailing" constant="163" id="05o-Tn-HOn"/>
+                                    <constraint firstItem="3HC-nv-igZ" firstAttribute="top" secondItem="PH3-l0-bwd" secondAttribute="top" constant="67" id="1UR-pV-HBX"/>
+                                    <constraint firstItem="hTU-Ly-fkd" firstAttribute="top" secondItem="E4m-kN-CPM" secondAttribute="bottom" constant="15.67" id="9bl-C3-Iw1"/>
+                                    <constraint firstAttribute="bottom" secondItem="hTU-Ly-fkd" secondAttribute="bottom" constant="49" id="B2H-fO-L40"/>
+                                    <constraint firstItem="E4m-kN-CPM" firstAttribute="top" secondItem="PH3-l0-bwd" secondAttribute="top" constant="76" id="Bbf-FQ-2yh"/>
+                                    <constraint firstItem="3HC-nv-igZ" firstAttribute="leading" secondItem="PH3-l0-bwd" secondAttribute="leading" constant="8" id="DVc-U2-p6k"/>
+                                    <constraint firstItem="hTU-Ly-fkd" firstAttribute="leading" secondItem="PH3-l0-bwd" secondAttribute="leading" constant="163" id="KLG-O9-haC"/>
+                                    <constraint firstAttribute="trailing" secondItem="hTU-Ly-fkd" secondAttribute="trailing" constant="163" id="PIa-Hb-SxR"/>
+                                    <constraint firstItem="E4m-kN-CPM" firstAttribute="leading" secondItem="3HC-nv-igZ" secondAttribute="trailing" constant="65" id="VGB-1f-wUd"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Jn-TP-uD7" secondAttribute="trailing" constant="8" id="dth-Ti-S2t"/>
+                                    <constraint firstItem="hTU-Ly-fkd" firstAttribute="leading" secondItem="PH3-l0-bwd" secondAttribute="leading" constant="163" id="f0U-lq-shs"/>
+                                    <constraint firstAttribute="bottom" secondItem="hTU-Ly-fkd" secondAttribute="bottom" constant="49" id="lBg-j4-PMI"/>
+                                    <constraint firstItem="6Jn-TP-uD7" firstAttribute="top" secondItem="PH3-l0-bwd" secondAttribute="top" constant="67" id="ona-nY-uIg"/>
+                                    <constraint firstItem="6Jn-TP-uD7" firstAttribute="leading" secondItem="E4m-kN-CPM" secondAttribute="trailing" constant="66" id="xvA-hh-I5X"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lny-ZJ-wwi" customClass="BlockMenu" customModule="HomeWork_6__IMeanHi__task4____" customModuleProvider="target">
+                                <rect key="frame" x="40" y="170" width="313" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="vJh-cg-MAs"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="IFD-eZ-LVe">
+                                <rect key="frame" x="40" y="330" width="313" height="128"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oet-6x-sha" customClass="BlockMenu" customModule="HomeWork_6__IMeanHi__task4____" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="128"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6vR-g9-ZqF" customClass="BlockMenu" customModule="HomeWork_6__IMeanHi__task4____" customModuleProvider="target">
+                                        <rect key="frame" x="173" y="0.0" width="140" height="128"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="cw3-aB-djF"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.1176470444" green="0.1176470444" blue="0.1176470444" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="IFD-eZ-LVe" firstAttribute="top" secondItem="lny-ZJ-wwi" secondAttribute="bottom" constant="20" id="1lR-OR-hjQ"/>
+                            <constraint firstItem="lny-ZJ-wwi" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="170" id="4hO-kW-U5N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IFD-eZ-LVe" secondAttribute="trailing" constant="40" id="4sh-IB-mYE"/>
+                            <constraint firstItem="PH3-l0-bwd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9qf-Ja-aNV"/>
+                            <constraint firstItem="PH3-l0-bwd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JcG-9H-YFe"/>
+                            <constraint firstItem="IFD-eZ-LVe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="ZIT-wl-tzl"/>
+                            <constraint firstItem="lny-ZJ-wwi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="gcH-mG-DtP"/>
+                            <constraint firstItem="PH3-l0-bwd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jgS-zm-f12"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lny-ZJ-wwi" secondAttribute="trailing" constant="40" id="qam-jC-62G"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="leftBlockMenu" destination="oet-6x-sha" id="Hb2-jg-QVz"/>
+                        <outlet property="rightBlockMenu" destination="6vR-g9-ZqF" id="v7i-9M-JbO"/>
+                        <outlet property="topBlockMenu" destination="lny-ZJ-wwi" id="u2x-ZN-Zrt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-625.19083969465646" y="-4.2253521126760569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="O3K-t5-9PF">
+            <objects>
+                <viewController id="o2j-0q-0mo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="smd-IB-NrO">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rFn-J7-G7W" customClass="CurrencyMenu" customModule="HomeWork_6__IMeanHi__task4____" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="59" width="393" height="175"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="Jto-UC-XiR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qBA-lB-q5u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rFn-J7-G7W" firstAttribute="trailing" secondItem="qBA-lB-q5u" secondAttribute="trailing" id="Ioc-Hj-UVS"/>
+                            <constraint firstItem="rFn-J7-G7W" firstAttribute="leading" secondItem="qBA-lB-q5u" secondAttribute="leading" id="Kob-G4-aaa"/>
+                            <constraint firstItem="rFn-J7-G7W" firstAttribute="top" secondItem="qBA-lB-q5u" secondAttribute="top" id="tTo-eM-JaS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u4Q-FO-n5l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="55.725190839694655" y="-367.6056338028169"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="coin.png" width="384" height="384"/>
+        <image name="info.png" width="384" height="384"/>
+        <image name="ukraine.png" width="384" height="384"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
