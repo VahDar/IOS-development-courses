@@ -1,0 +1,56 @@
+{
+    "type": "list",
+    "company": {
+    "count": 2,
+    "companyDescription": "Apple",
+    "listOfData": [
+        
+        {
+            "name": "Iphone",
+            "modelNumber": "14 Pro Max",
+            "countries": [
+                
+                    "USA",
+                    "Ukraine"
+                
+            ],
+            "price": {
+                "regions":[
+                    {
+                    "name": "LA",
+                      "price": 1100
+                    },
+                    {
+                        "name": "Kyev",
+                        "price": 1400
+                    }
+                ]
+            },
+            "year": 2022
+        },
+        {
+             "name": "IPad",
+            "modelNumber": "Pro",
+            "countries": [
+                
+                    "USA",
+                    "Ukraine"
+                
+            ],
+            "price": {
+                "regions":[
+           {
+                     "name": "California",
+                       "price": 999
+        },
+        {
+            "name": "Lviv",
+            "price": 1450
+        }
+                ]
+            },
+            "year": 2022
+        }
+    ]
+}
+}
