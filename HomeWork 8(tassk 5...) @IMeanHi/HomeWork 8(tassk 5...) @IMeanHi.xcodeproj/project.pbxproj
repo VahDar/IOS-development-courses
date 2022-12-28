@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36358801837FA5A73A598C81 /* Pods_HomeWork_8_tassk_5______IMeanHi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF14AB47B93B4639FF467C0 /* Pods_HomeWork_8_tassk_5______IMeanHi.framework */; };
+		FCC6FA4D29574C2700A659FB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FCC6FA4C29574C2700A659FB /* Podfile */; };
+		FCC8FA2829570384008238F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8FA2729570384008238F5 /* AppDelegate.swift */; };
+		FCC8FA2A29570384008238F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8FA2929570384008238F5 /* SceneDelegate.swift */; };
+		FCC8FA2C29570384008238F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8FA2B29570384008238F5 /* ViewController.swift */; };
+		FCC8FA2F29570384008238F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC8FA2D29570384008238F5 /* Main.storyboard */; };
+		FCC8FA3129570385008238F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC8FA3029570385008238F5 /* Assets.xcassets */; };
+		FCC8FA3429570385008238F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC8FA3229570385008238F5 /* LaunchScreen.storyboard */; };
+		FCC8FA3C295703BA008238F5 /* GenresModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8FA3B295703BA008238F5 /* GenresModel.swift */; };
+		FCC8FA3E29570500008238F5 /* TrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8FA3D29570500008238F5 /* TrendingModel.swift */; };
+		FCCE75482958879A007792C2 /* GenresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCE75472958879A007792C2 /* GenresViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64B7CE62E15DA3676EA99D30 /* Pods-HomeWork 8(tassk 5...) @IMeanHi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork 8(tassk 5...) @IMeanHi.debug.xcconfig"; path = "Target Support Files/Pods-HomeWork 8(tassk 5...) @IMeanHi/Pods-HomeWork 8(tassk 5...) @IMeanHi.debug.xcconfig"; sourceTree = "<group>"; };
+		7F2417AA637704B326D61074 /* Pods-HomeWork 8(tassk 5...) @IMeanHi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeWork 8(tassk 5...) @IMeanHi.release.xcconfig"; path = "Target Support Files/Pods-HomeWork 8(tassk 5...) @IMeanHi/Pods-HomeWork 8(tassk 5...) @IMeanHi.release.xcconfig"; sourceTree = "<group>"; };
+		8DF14AB47B93B4639FF467C0 /* Pods_HomeWork_8_tassk_5______IMeanHi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_HomeWork_8_tassk_5______IMeanHi.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC6FA4C29574C2700A659FB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		FCC8FA2429570384008238F5 /* HomeWork 8(tassk 5...) @IMeanHi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork 8(tassk 5...) @IMeanHi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC8FA2729570384008238F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCC8FA2929570384008238F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FCC8FA2B29570384008238F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCC8FA2E29570384008238F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC8FA3029570385008238F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC8FA3329570385008238F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC8FA3529570385008238F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC8FA3B295703BA008238F5 /* GenresModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresModel.swift; sourceTree = "<group>"; };
+		FCC8FA3D29570500008238F5 /* TrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingModel.swift; sourceTree = "<group>"; };
+		FCCE75472958879A007792C2 /* GenresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC8FA2129570384008238F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36358801837FA5A73A598C81 /* Pods_HomeWork_8_tassk_5______IMeanHi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3C72D64E7050664E024749 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64B7CE62E15DA3676EA99D30 /* Pods-HomeWork 8(tassk 5...) @IMeanHi.debug.xcconfig */,
+				7F2417AA637704B326D61074 /* Pods-HomeWork 8(tassk 5...) @IMeanHi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3C27D27047391F8056EEF48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DF14AB47B93B4639FF467C0 /* Pods_HomeWork_8_tassk_5______IMeanHi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCC8FA1B29570384008238F5 = {
+			isa = PBXGroup;
+			children = (
+				FCC8FA2629570384008238F5 /* HomeWork 8(tassk 5...) @IMeanHi */,
+				FCC8FA2529570384008238F5 /* Products */,
+				8E3C72D64E7050664E024749 /* Pods */,
+				B3C27D27047391F8056EEF48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC8FA2529570384008238F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8FA2429570384008238F5 /* HomeWork 8(tassk 5...) @IMeanHi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC8FA2629570384008238F5 /* HomeWork 8(tassk 5...) @IMeanHi */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6FA4C29574C2700A659FB /* Podfile */,
+				FCC8FA2729570384008238F5 /* AppDelegate.swift */,
+				FCC8FA2929570384008238F5 /* SceneDelegate.swift */,
+				FCC8FA2B29570384008238F5 /* ViewController.swift */,
+				FCCE75472958879A007792C2 /* GenresViewController.swift */,
+				FCC8FA2D29570384008238F5 /* Main.storyboard */,
+				FCC8FA3029570385008238F5 /* Assets.xcassets */,
+				FCC8FA3229570385008238F5 /* LaunchScreen.storyboard */,
+				FCC8FA3529570385008238F5 /* Info.plist */,
+				FCCE754929588DA5007792C2 /* Model */,
+			);
+			path = "HomeWork 8(tassk 5...) @IMeanHi";
+			sourceTree = "<group>";
+		};
+		FCCE754929588DA5007792C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCC8FA3D29570500008238F5 /* TrendingModel.swift */,
+				FCC8FA3B295703BA008238F5 /* GenresModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC8FA2329570384008238F5 /* HomeWork 8(tassk 5...) @IMeanHi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC8FA3829570385008238F5 /* Build configuration list for PBXNativeTarget "HomeWork 8(tassk 5...) @IMeanHi" */;
+			buildPhases = (
+				135FE9D13E4488C7E199B80B /* [CP] Check Pods Manifest.lock */,
+				FCC8FA2029570384008238F5 /* Sources */,
+				FCC8FA2129570384008238F5 /* Frameworks */,
+				FCC8FA2229570384008238F5 /* Resources */,
+				6D690EEA794947C5B18E8158 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomeWork 8(tassk 5...) @IMeanHi";
+			productName = "HomeWork 8(tassk 5...) @IMeanHi";
+			productReference = FCC8FA2429570384008238F5 /* HomeWork 8(tassk 5...) @IMeanHi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC8FA1C29570384008238F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FCC8FA2329570384008238F5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FCC8FA1F29570384008238F5 /* Build configuration list for PBXProject "HomeWork 8(tassk 5...) @IMeanHi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC8FA1B29570384008238F5;
+			productRefGroup = FCC8FA2529570384008238F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC8FA2329570384008238F5 /* HomeWork 8(tassk 5...) @IMeanHi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC8FA2229570384008238F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC8FA3429570385008238F5 /* LaunchScreen.storyboard in Resources */,
+				FCC8FA3129570385008238F5 /* Assets.xcassets in Resources */,
+				FCC6FA4D29574C2700A659FB /* Podfile in Resources */,
+				FCC8FA2F29570384008238F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		135FE9D13E4488C7E199B80B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeWork 8(tassk 5...) @IMeanHi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D690EEA794947C5B18E8158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork 8(tassk 5...) @IMeanHi/Pods-HomeWork 8(tassk 5...) @IMeanHi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeWork 8(tassk 5...) @IMeanHi/Pods-HomeWork 8(tassk 5...) @IMeanHi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeWork 8(tassk 5...) @IMeanHi/Pods-HomeWork 8(tassk 5...) @IMeanHi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC8FA2029570384008238F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCE75482958879A007792C2 /* GenresViewController.swift in Sources */,
+				FCC8FA2C29570384008238F5 /* ViewController.swift in Sources */,
+				FCC8FA3C295703BA008238F5 /* GenresModel.swift in Sources */,
+				FCC8FA3E29570500008238F5 /* TrendingModel.swift in Sources */,
+				FCC8FA2829570384008238F5 /* AppDelegate.swift in Sources */,
+				FCC8FA2A29570384008238F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCC8FA2D29570384008238F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC8FA2E29570384008238F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC8FA3229570385008238F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC8FA3329570385008238F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC8FA3629570385008238F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCC8FA3729570385008238F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC8FA3929570385008238F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B7CE62E15DA3676EA99D30 /* Pods-HomeWork 8(tassk 5...) @IMeanHi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HomeWork 8(tassk 5...) @IMeanHi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.HomeWork-8-tassk-5------IMeanHi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC8FA3A29570385008238F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2417AA637704B326D61074 /* Pods-HomeWork 8(tassk 5...) @IMeanHi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HomeWork 8(tassk 5...) @IMeanHi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.HomeWork-8-tassk-5------IMeanHi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC8FA1F29570384008238F5 /* Build configuration list for PBXProject "HomeWork 8(tassk 5...) @IMeanHi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC8FA3629570385008238F5 /* Debug */,
+				FCC8FA3729570385008238F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC8FA3829570385008238F5 /* Build configuration list for PBXNativeTarget "HomeWork 8(tassk 5...) @IMeanHi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC8FA3929570385008238F5 /* Debug */,
+				FCC8FA3A29570385008238F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC8FA1C29570384008238F5 /* Project object */;
+}

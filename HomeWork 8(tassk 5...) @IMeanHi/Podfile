@@ -1,0 +1,6 @@
+target 'HomeWork 8(tassk 5...) @IMeanHi' do
+  use_frameworks!
+
+pod 'Alamofire'
+ 
+end
